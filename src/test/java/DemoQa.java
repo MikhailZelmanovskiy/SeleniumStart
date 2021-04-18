@@ -54,7 +54,7 @@ public class DemoQa {
     }
     @AfterMethod
     public void tearDown(){
-       // wd.quit();
+       wd.quit();
     }
 
 }
